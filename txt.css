@@ -1,14 +1,49 @@
-.navbar {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: black;
+body{
+  
+  text-align: center;
+  
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
-div .navbar # {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 100px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 50px;
+.navbar {
+  display: flex;
+  background-color: #333;
+  width: 23.5%;
+  float: center;
 }
+
+.navbar a {
+  
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lobster', cursive;
+  
+}
+
+.navbar a:hover {
+  background-color: green;
+  color: black;
+}
+#A {
+  color: orange;
+}
+
+#A:hover {
+   background-color: pink;
+}
+
+ .pgap{
+ color: fff;
+
+}
+ .pgap p:hover{
+   background-color: pink;
+}
+
+
